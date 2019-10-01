@@ -5,6 +5,7 @@ import com.zeeb.newsindo.domain.Article
 
 open class ArticleMapper : BaseMapper<ArticleModel, Article> {
 
+    //hjghgcfghy
 
     override fun mapToDomain(model: ArticleModel): Article {
         val url = if(model.multimedia!!.isEmpty()) {
